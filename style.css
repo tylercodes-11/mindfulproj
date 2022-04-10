@@ -1,0 +1,316 @@
+body {
+
+    width: 100%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+a {
+    color: yellowgreen;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a:hover,
+a:focus {
+    color: forestgreen;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+div {
+    display: block;
+}
+header {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-image: url(/imgs/water-mountains.jpeg);
+    min-height: auto;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+header .header-content {
+    position: relative;
+    width: 100vw;
+    height: v;
+    padding: 100px 15px 50px;
+    text-align: center;
+
+}
+
+header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+header .header-content .header-content-inner p {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+}
+@media(min-width:768px) {
+    header {
+        min-height: 100%;
+    }
+
+    header .header-content {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        padding: 0px 50px;
+        text-align: center;
+        align-items: center;
+        transform: translateY(-50%);
+
+    }
+
+    header .header-content .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+    }
+
+	header .header-content .header-content-inner h1 {
+    	font-size: 100px;
+		}
+
+    header .header-content .header-content-inner p {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 80%;
+        font-size: 18px;
+    }
+}
+
+.intro {
+    color: #fff;
+    background-color: orange;
+    padding: 70px 0;
+    text-align: center;
+}
+
+
+
+.section-heading {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.content {
+    padding: 100px;
+
+}
+
+.content-2 {
+    color: #fff;
+    background-color: #222;
+}
+
+
+.text-light {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.navbar-default {
+    border-color: rgba(34,34,34,.05);
+    -webkit-transition: all .35s;
+    transition: all .35s;
+
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    color: rgb(255, 218, 85);
+}
+
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: black!important;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: #eb3812;
+}
+
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
+    color: #222;
+}
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
+    color: yellowgreen;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        border-color: rgba(255,255,255,.3);
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-header .navbar-brand {
+        color: rgba(255,255,255,.7);
+        letter-spacing: 0.5em;
+    }
+
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #fff;
+    }
+
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        color: rgba(255,255,255,.7);
+    }
+
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #fff;
+    }
+
+    .navbar-default.affix {
+        border-color: #fff;
+        background-color: #fff;
+        box-shadow: 0px 7px 20px 0px rgba(0,0,0,0.1);
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand {
+        letter-spacing: 0;
+        color: yellowgreen;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    .navbar-default.affix .navbar-header .navbar-brand:focus {
+        color: #eb3812;
+    }
+
+    .navbar-default.affix .nav > li>a,
+    .navbar-default.affix .nav>li>a:focus {
+        color: #222;
+    }
+
+    .navbar-default.affix .nav > li>a:hover,
+    .navbar-default.affix .nav>li>a:focus:hover {
+        color: yellowgreen;
+    }
+}
+ .bi-magic {
+    height: 50px;
+    width: 50px;
+}
+
+.bi-clipboard2-check-fill {
+
+    height: 80px;
+    width: 80px;
+    padding-bottom: 20px;
+}
+.btn-lg {
+margin-top: 20px;
+align-items: center;
+}
+
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#content-text {
+    color: #222 ;
+    padding-top: 40px;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.promo,
+.promo h3,
+.promo a:link,
+.promo a:visited,
+.promo a:hover,
+.promo a:active {
+    color: white;
+	text-shadow: 0px 0px 40px black;
+    text-decoration: none;
+}
+
+.promo-item {
+    height: 200px;
+    width: auto;
+    line-height: 180px;
+    text-align: center;
+}
+
+.promo-item:hover {
+    background-size: 130%; 
+    border: 10px solid rgba(255,255,255,0.3);
+    line-height: 160px;
+}
+
+.promo-item h3 {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item-1 {
+    background-image: url(/imgs/ultimate-gohan.webp);
+}
+
+.item-2 {
+    background-image: url(/imgs/Mind-Body-Connection.jpeg);
+
+}
+
+.item-3 {
+    position: relative; 
+    background-image: url(/imgs/euphoria.jpeg);
+   
+}
+
+.item-1,
+.item-2,
+.item-3 {
+    background-size: cover;
+	background-position: 50% 50%;
+}
+
+.page-footer{
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+
+.page-footer .contact {
+    width: auto;
+    padding: 100%,0%;
+   
+    color: #fff;
+}
+
+.page-footer .contact p {
+    font-size: 22px;
+    font-weight: 300;
+}
