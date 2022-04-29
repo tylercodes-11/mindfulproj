@@ -34,7 +34,7 @@ header {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-image: url(/imgs/water-mountains.jpeg);
+    background-image: url(./imgs/water-mountains.jpeg);
     min-height: auto;
     width: 100%;
     height: 100vh;
@@ -136,8 +136,27 @@ header .header-content .header-content-inner p {
 
 }
 
+.nav-item {
+    padding-left: 10px;
+
+}
+
+.navbar-text {
+    margin-left: auto;
+    padding-right: 15px;
+
+}
+
+
 .navbar-default .navbar-header .navbar-brand {
     color: rgb(255, 218, 85);
+}
+
+.navbar-brand {
+    float: left;
+    font-size: 18px;
+    line-height: 20px;
+    
 }
 
 .navbar-default .nav > li.active>a,
@@ -276,17 +295,17 @@ align-items: center;
 }
 
 .item-1 {
-    background-image: url(/imgs/ultimate-gohan.webp);
+    background-image: url(./imgs/ultimate-gohan.webp);
 }
 
 .item-2 {
-    background-image: url(/imgs/Mind-Body-Connection.jpeg);
+    background-image: url(./imgs/Mind-Body-Connection.jpeg);
 
 }
 
 .item-3 {
     position: relative; 
-    background-image: url(/imgs/euphoria.jpeg);
+    background-image: url(./imgs/euphoria.jpeg);
    
 }
 
@@ -313,4 +332,8 @@ align-items: center;
 .page-footer .contact p {
     font-size: 22px;
     font-weight: 300;
+}
+
+.local-button {
+    margin: auto;
 }
