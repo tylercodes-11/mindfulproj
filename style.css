@@ -53,17 +53,26 @@ header .header-content {
 header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 500;
 }
 
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
 }
-@media(min-width:768px) {
+
+.btn.btn-lg {
+    margin-top: 30px;
+}
+/* mobile view */
+@media(max-width:576px) {
+
+    .content {
+        padding: 30px;
+    }
     header {
         min-height: 100%;
     }
@@ -85,9 +94,7 @@ header .header-content .header-content-inner p {
         max-width: 1000px;
     }
 
-	header .header-content .header-content-inner h1 {
-    	font-size: 100px;
-		}
+
 
     header .header-content .header-content-inner p {
         margin-right: auto;
@@ -95,7 +102,11 @@ header .header-content .header-content-inner p {
         max-width: 80%;
         font-size: 18px;
     }
+
+   
 }
+
+    
 
 .intro {
     color: #fff;
@@ -114,7 +125,7 @@ header .header-content .header-content-inner p {
 }
 
 .content {
-    padding: 100px;
+    padding: 10%;
 
 }
 
@@ -301,16 +312,37 @@ align-items: center;
 
 .item-1 {
     background-image: url(./imgs/ultimate-gohan.webp);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;background-position-x: initial;
 }
 
 .item-2 {
     background-image: url(./imgs/Mind-Body-Connection.jpeg);
-
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;background-position-x: initial;
 }
 
 .item-3 {
     position: relative; 
     background-image: url(./imgs/euphoria.jpeg);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;background-position-x: initial;
+   
    
 }
 
@@ -341,4 +373,5 @@ align-items: center;
 
 .local-button {
     margin: auto;
+    margin-bottom: 20px;
 }
