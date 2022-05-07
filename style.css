@@ -147,17 +147,18 @@ header .header-content .header-content-inner p {
 
 }
 
+.nav-bar-logo {
+    padding-left: 15px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
 
 .navbar-default .navbar-header .navbar-brand {
     color: rgb(255, 218, 85);
 }
 
-.navbar-brand {
-    float: left;
-    font-size: 18px;
-    line-height: 20px;
-    
-}
+
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
@@ -184,6 +185,10 @@ header .header-content .header-content-inner p {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
+    }
+    
+    .navbar-brand {
+        float: left;
     }
 
     .navbar-default .navbar-header .navbar-brand {
